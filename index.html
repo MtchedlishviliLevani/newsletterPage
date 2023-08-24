@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <title>Newsletter</title>
+</head>
+
+<body>
+    <div class="main-box">
+        <div class="left-side">
+            <h1>Stay updated!</h1>
+            <p>Join 60,000+ product managers receiving monthly updates on:</p>
+            <div class="feature">
+                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21" fill="none">
+                    <circle cx="10.5" cy="10.5" r="10.5" fill="#FF6155" />
+                    <path d="M6 11.3812L8.73464 14L15 8" stroke="white" stroke-width="2" />
+                </svg>
+                <h3>Product discovery and building what matters</h3>
+            </div>
+            <div class="feature">
+                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21" fill="none">
+                    <circle cx="10.5" cy="10.5" r="10.5" fill="#FF6155" />
+                    <path d="M6 11.3812L8.73464 14L15 8" stroke="white" stroke-width="2" />
+                </svg>
+                <h3>Measuring to ensure updates are a success</h3>
+            </div>
+            <div class="feature">
+                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21" fill="none">
+                    <circle cx="10.5" cy="10.5" r="10.5" fill="#FF6155" />
+                    <path d="M6 11.3812L8.73464 14L15 8" stroke="white" stroke-width="2" />
+                </svg>
+                <h3>And much more!</h3>
+            </div>
+            <form action="">
+                <div class="label-wrapper"><label for="">Email address</label>
+                    <label class="error" for="">Valid Email Required</label>
+                </div>
+
+                <input type="text" placeholder="email@company.com">
+            </form>
+            <button id="subscribe-btn">Subscribe to monthly newsletter</button>
+        </div>
+        <div class="right-side">
+            <img class="desktop-res" src="./assets/images/main-img.png" alt="main-photo">
+            <img class="tablet-res" src="./assets/images/tablet.png"
+                srcset="./assets/images/tablet.png 600w, ./assets/images/mobile.png 475w" alt="">
+        </div>
+    </div>
+
+    <div class="response-card">
+        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+            <circle cx="32" cy="32" r="32" fill="url(#paint0_linear_26_441)" />
+            <path d="M18.2856 34.6855L26.6198 42.6667L45.7142 24.381" stroke="white" stroke-width="4" />
+            <defs>
+                <linearGradient id="paint0_linear_26_441" x1="64" y1="-3.47137e-06" x2="28.8976" y2="77.1484"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#FF6A3A" />
+                    <stop offset="1" stop-color="#FF527B" />
+                </linearGradient>
+            </defs>
+        </svg>
+        <h2>Thanks for subscribing!</h2>
+        <p>A confirmation email has been sent to <span></span> Please open it and click the button inside to
+            confirm your subscription.</p>
+        <button id="dismiss">Dismiss message</button>
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
